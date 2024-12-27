@@ -31,56 +31,61 @@ const skills = [
     },
     {
         id: 7,
+        name: "Firebase",
+        url: "./skillImages/firebase.png"
+    },
+    {
+        id: 8,
         name: "Bootstrap",
         url: "./skillImages/bootstrap.png"
     },
     {
-        id: 8,
+        id: 9,
         name: "Node.js",
         url: "./skillImages/node.png"
     },
     {
-        id: 9,
+        id: 10,
         name: "Express.js",
         url: "./skillImages/express.png"
     },
     {
-        id: 10,
+        id: 11,
         name: "MongoDB",
         url: "./skillImages/mongodb.png"
     },
     {
-        id: 11,
+        id: 12,
         name: "PostgreSQL",
         url: "./skillImages/postgresql.png"
     },
     {
-        id: 12,
+        id: 13,
         name: "Prisma",
         url: "./skillImages/prisma.png"
     },
     {
-        id: 13,
+        id: 14,
         name: "Fastify",
         url: "./skillImages/fastify.png"
     },
     {
-        id: 14,
+        id: 15,
         name: "Git",
         url: "./skillImages/git.png"
     },
     {
-        id: 15,
+        id: 16,
         name: "Github",
         url: "./skillImages/github.png"
     },
     {
-        id: 16,
+        id: 17,
         name: "Python",
         url: "./skillImages/python.png"
     },
     {
-        id: 17,
+        id: 18,
         name: "C++",
         url: "./skillImages/cpp.png"
     },
