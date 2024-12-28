@@ -16,85 +16,85 @@ function Work() {
       {/* projects grid */}
       {/* 1345X645 image aspect ratio */}
       <div className="animate-on-scroll grid sm:grid-cols-2 md:grid-cols-3 gap-[1px] bg-secondaryBg py-[1px]">
-        {/* Weather Watcher */}
+        {/* WanderLust */}
         <ProjectCard
-        img="weather.png"
-        url="https://milan-sh.github.io/weather-app/"
-        title="Weather Watcher"
+        img="wanderlust.png"
+        url="https://wonderlust-nvdg.onrender.com/listings"
+        title="WanderLust"
+        skill1="Express.js"
+        skill2="EJS"
+        about="WanderLust web application built using a stack of Express.js, Node.js, MongoDB, EJS, and Bootstrap. This platform allows users to securely sign up, log in, and manage their listings with CRUD operations. Features include a review system, dynamic search, and category filtering. The application employs the MVC framework to ensure scalability and maintainability, and it uses MongoDB for efficient data management."
+        repo="https://github.com/NayanCod/WonderLust"
+        />
+        {/* Sudoyantra Dashboard */}
+        <ProjectCard
+        img="sudo.png"
+        url="https://www.linkedin.com/in/nayan-4b2b61249/details/projects/"
+        title="Sudoyantra Dashboard"
+        skill1="Vue3"
+        skill2="TypeScript"
+        about="Developed a comprehensive dashboard for SudoYantra's automatic and semi-automatic solar panel cleaning robots. The dashboard features real-time data visualization, including robot and panel statistics, and allows administrators to manage organizations, users, and robots efficiently."
+        repo="https://www.linkedin.com/company/sudoyantra/posts/?feedView=all"
+        />
+        {/* Item Expiry Reminder */}
+        <ProjectCard
+        img="itemExpiry.jpg"
+        url="https://local-food-expiry-reminder-frontend.onrender.com"
+        title="Item Expiry Reminder"
+        skill1="MERN"
+        skill2="Firebase"
+        about="The FreshTrack web app helps users efficiently manage item expirations. With secure JWT authentication, users can add items along with their expiry dates, filter items by status (all, fresh, expiring soon, expired), and receive timely notifications to prevent wastage. All notifications are saved in the database and accessible via the app's alert system, ensuring users stay organized and informed."
+        repo="https://github.com/NayanCod/Local-Food-Expiry_Reminder"
+        />
+        {/* CraveEase */}
+        <ProjectCard
+        img="craveease.jpg"
+        url="https://craveease.netlify.app/"
+        title="CraveEase"
         skill1="React"
-        skill2="Redux.js"
-        about="A sleek and responsive weather application providing real-time weather updates for locations worldwide. The app features a clean user interface and detailed weather data, including temperature, humidity, and wind speed."
-        repo="https://github.com/milan-sh/weather-app.git"
+        skill2="Redux-Toolkit"
+        about="A React food app seamlessly integrated with Swiggy API for effortless searching. Powered by Redux-toolkit and styled with Tailwind CSS, it offers a smooth user experience. Explore diverse cuisines and place orders hassle-free at CraveEase. Enjoy convenience and variety with just a click."
+        repo="https://github.com/NayanCod/Food-App"
         />
-        {/* Binary Bolgs */}
+        {/* Netlfix GPT*/}
         <ProjectCard
-        img="blog.png"
-        url="https://binary-blogs.vercel.app/"
-        title="Binary Blogs"
+        img="netflixGPT.jpg"
+        url="https://moveenest.netlify.app/browse"
+        title="NetflixGPT"
         skill1="React"
-        skill2="Appwrite"
-        about="A dynamic blogging platform where users can create, edit, and explore articles on various topics. Built using React, Appwrite, and Tailwind CSS, it emphasizes performance and responsive design."
-        repo="https://github.com/milan-sh/binary-blogs.git"
+        skill2="Gemini"
+        about="NetflixGPT is an AI-driven movie platform powered by Google Gemini AI. It features secure Firebase authentication, TMDB-powered search and recommendations, a responsive design, and optimized performance with memoization for a seamless viewing experience."
+        repo="https://github.com/NayanCod/netflix-gpt"
         />
-        {/* Expense Ease */}
+        {/* weather app*/}
         <ProjectCard
-        img="expense.png"
-        url="https://milan-sh.github.io/expense-tracker-app/"
-        title="Expense Ease"
-        skill1="JS"
-        skill2="Tailwind"
-        about="A user-friendly expense tracker designed to simplify financial management by tracking income and expenditures. The application provides clear insights into spending habits with interactive visuals and data summaries."
-        repo="https://github.com/milan-sh/expense-tracker-app.git"
-        />
-        {/* Task Tracer */}
-        <ProjectCard
-        img="todo.png"
-        url="https://milan-sh.github.io/to-do-web-app/"
-        title="Task Tracker"
-        skill1="JS"
+        img="weather.jpg"
+        url="https://nayancod.github.io/Weather-App/"
+        title="Weather App"
+        skill1="JavaScript"
         skill2="CSS"
-        about="A simple and intuitive to-do application designed to help users manage their daily tasks efficiently. With a focus on usability, it enables users to add, edit, delete, and mark tasks as complete."
-        repo="https://github.com/milan-sh/to-do-web-app.git"
+        about="A weather app using HTML CSS and JS that uses Openweather API to fetch parameters like temperature, minimum and maximum temperature, state name and country name etc.Skills: JavaScript · HTML · Cascading Style Sheets (CSS)"
+        repo="https://github.com/NayanCod/Weather-App"
         />
-        {/* Dice Game*/}
+        {/* walkability app*/}
         <ProjectCard
-        img="dice.png"
-        url="https://dice-game-amber-beta.vercel.app/"
-        title="Dice Guesser"
-        skill1="React"
-        skill2="Tailwind"
-        about="Dice Guesser is a React-based game where you predict the next dice roll. Test your luck, enjoy dynamic dice animations, and get instant feedback on your guesses. A simple yet engaging game for quick fun!"
-        repo="https://github.com/milan-sh/dice-game.git"
+        img="walkability.jpg"
+        url="https://ratemystreet.onlydev.in/dashboard"
+        title="RateMyStreet"
+        skill1="Next.js"
+        skill2="TypeScript"
+        about="RateMyStreet is a web app tackling walkability issues in Bangalore. It allows users to submit street reviews and view ratings on an interactive map, promoting safer routes. Built with Next.js, Google Auth, Tailwind CSS, and shadcn UI."
+        repo="https://github.com/NayanCod/Walkability-App"
         />
-        {/* GitHub Insight*/}
+        {/* quiz app */}
         <ProjectCard
-        img="github.png"
-        url="https://github-insight-two.vercel.app/"
-        title="GitHub Insight"
-        skill1="JS"
-        skill2="CSS"
-        about="GitHub Insight is a web app that provides an overview of any GitHub profile. Enter a username to view details like profile link, repos, followers, and more, displayed in a sleek card design. Explore GitHub profiles effortlessly!"
-        repo="https://github.com/milan-sh/github-insight.git"
-        />
-        {/* Time lived*/}
-        <ProjectCard
-        img="time.png"
-        url="https://time-lived.vercel.app/"
-        title="Time Lived"
-        skill1="JS"
-        skill2="CSS"
-        about="Discover how much of your life you've lived. This tool calculates the total time you've spent based on your age, breaking it down into years, months, days, hours, minutes, and seconds. A fun way to reflect on life!"
-        repo="https://github.com/milan-sh/time-lived.git"
-        />
-        {/* Netflix UI Clone */}
-        <ProjectCard
-        img="netflix.png"
-        url="https://milan-sh.github.io/netflix-frontend-clone/"
-        title="Netflix UI Clone"
-        skill1="CSS"
-        skill2="HTML"
-        about="A pixel-perfect clone of Netflix's user interface, built to replicate its sleek and immersive design. This project showcases dynamic content, responsive layouts, and smooth animations for an authentic viewing experience."
-        repo="https://github.com/milan-sh/netflix-frontend-clone.git"
+        img="quizApp.jpg"
+        url="https://nayan-quiz-app.netlify.app"
+        title="Trivia App"
+        skill1="Next.js"
+        skill2="Docker"
+        about="A Trivia App built with Next.js, featuring dynamic interfaces and efficient data fetching. Dockerized for seamless deployment, it highlights key skills in Next.js and containerization."
+        repo="https://github.com/NayanCod/Quiz-App"
         />
         {/* coming soon card */}
         <div className="relative hidden bg-primaryBg border border-dashed border-borderColor  md:flex flex-col justify-center items-center gap-y-4">
