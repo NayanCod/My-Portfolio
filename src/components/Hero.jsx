@@ -68,10 +68,10 @@ function Hero() {
               expertise in <span className="text-hoverBg">JavaScript</span>,{" "}
               <span className="text-hoverBg">Vue</span> and{" "}
               <span className="text-hoverBg">MERN stack</span>.
-               {/* I focus on
-              delivering seamless functionality and engaging user experiences. */}
+               I focus on
+              delivering seamless functionality and engaging user experiences.
             </p>
-            <div className="mt-4">
+            {/* <div className="mt-4">
               <a
                 href="https://drive.google.com/file/d/1rALm-OsMTghSr0IUI58If5aj7l3ja7_A/view?usp=drive_link" target="_blank" rel="noreferrer"
                 className="inline-block bg-secondaryTextColor text-primaryBg px-4 py-2 rounded hover:bg-hoverBg transition duration-300"
@@ -79,7 +79,7 @@ function Hero() {
               >
                 Download Resume
               </a>
-            </div>
+            </div> */}
             {/* <div>Download Resume</div> */}
           </div>
           <div className=" xl:flex sm:hidden hidden justify-between items-center mt-6 lg:hidden md:hidden">

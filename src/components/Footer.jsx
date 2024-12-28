@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCopyright } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin, faDiscord } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 
 
 function Footer() {
@@ -13,29 +13,29 @@ function Footer() {
         <div className="flex items-end justify-center lg:justify-start md:order-1 order-3">
           <p className="text-secondaryTextColor font-semibold text-center lg:text-start ">
             <FontAwesomeIcon color="#777777" icon={faCopyright} />{" "}
-            {date.getFullYear()} Milan Singh. All rights reserved.
+            {date.getFullYear()} Nayan. All rights reserved.
           </p>
         </div>
         <p className="text-center mx-auto text-secondaryTextColor font-semibold text-xl md:text-2xl cursor-pointer md:order-2 order-2">
-          devmilansingh81@gmail.com
+          kumarnayab6@gmail.com
         </p>
         <div className="flex lg:justify-end justify-center items-center gap-x-2 md:order-3 order-1">
-          <Button className="border-none">
-            <a href="https://github.com/milan-sh" target="_blank">
+          <Button className="border-none hover:text-hoverBg">
+            <a href="https://github.com/NayanCod" target="_blank">
             <FontAwesomeIcon size="xl" icon={faGithub} />
             </a>
           </Button>
-          <Button className="border-none">
+          <Button className="border-none hover:text-hoverBg">
             <a
-              href="https://www.linkedin.com/in/milan-singh-81ms33/"
+              href="https://www.linkedin.com/in/nayan-4b2b61249"
               target="_blank"
             >
               <FontAwesomeIcon size="xl" icon={faLinkedin} />
             </a>
           </Button>
-          <Button className="border-none">
-            <a href="https://discord.com/users/mil_8133" target="_blank">
-            <FontAwesomeIcon size="xl" icon={faDiscord} />
+          <Button className="border-none hover:text-hoverBg">
+            <a href="https://x.com/nayannew9" target="_blank">
+            <FontAwesomeIcon size="xl" icon={faXTwitter} />
             </a>
           </Button>
         </div>

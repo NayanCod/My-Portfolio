@@ -25,11 +25,11 @@ function Navbar() {
       <Button
       className="border-none bg-hoverBg font-bold py-1 px-2 text-xl"
       textColor="black"
-      ><a href="/">MILAN SINGH</a></Button>
+      ><a href="/">NAYAN</a></Button>
       <div className="flex items-center justify-between gap-x-5">
         <Button
         className="hover:bg-hoverBg hover:text-black hover:border-hoverBg hidden md:block "
-        ><a href="https://drive.google.com/file/d/1anLf_zZUugW8M0kZviwE68Lo-Su7pr9f/view?usp=sharing" target="_blank">Download CV</a></Button>
+        ><a href="https://drive.google.com/file/d/1rALm-OsMTghSr0IUI58If5aj7l3ja7_A/view?usp=drive_link" target="_blank">Download CV</a></Button>
         <Button className="border-none" onClick={toggleNav}>
           {isNavOpen ? <FontAwesomeIcon icon={faXmark} size="xl" className="hover:text-[#CB450C]" /> : <FontAwesomeIcon size="xl" className="hover:text-[#CB450C]" icon={faBars} />}
         </Button>
