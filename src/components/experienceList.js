@@ -5,7 +5,7 @@ const experience  = [
         id:1,
         role: "Frontend Developer Intern",
         duration: "Dec, 2024 — Present",
-        location:"New Delhi, India",
+        location:"Remote",
         companyName: "Pinak Venture",
         webURL: "https://sudoyantra.com",
         desc: "Working as a Frontend Developer, contributing to the development of a responsive, user-friendly website using TypeScript, Tailwind CSS, and HTML. Focused on ensuring cross-browser compatibility and writing scalable, maintainable front-end code.",
@@ -16,11 +16,11 @@ const experience  = [
         id:2,
         role: "Software Developer Intern",
         duration: "Aug, 2024 — Oct, 2024",
-        location:"New Delhi, India",
+        location:"Remote",
         companyName: "Sudoyantra India",
-        webURL: "https://www.linkedin.com/company/robotics-club-dduc-new",
-        desc: "Led the development of event websites and IoT projects involving Raspberry Pi and Arduino, ensuring seamless functionality and team collaboration. Optimized processes, mentored team members, and streamlined vendor integrations to enhance project efficiency.",
-        url: "/workedlogos/robotics_club_dduc_new_logo.jpeg",
+        webURL: "https://sudoyantra.com",
+        desc: "Enhanced SudoYantra's dashboard by improving user experience and performance, developing optimized Fastify-Prisma backend endpoints, and styling dynamic pages with Vue.js, Pinia, and Tailwind CSS. Gained valuable mentorship and hands-on experience with modern technologies, including PostgreSQL and Fastify.",
+        url: "/workedlogos/sudoyantralogo.png",
         tech: ["Vue3", "Tailwind", "Postgresql", "MongoDB"]
     }
 ]
