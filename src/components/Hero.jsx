@@ -32,7 +32,7 @@ function Hero() {
       <div className="overflow-y-hidden pr-2">
         <div className="fe flex justify-between items-center flex-wrap font-bebas text-primaryTextColor xl:text-xlHeading lg:text-lgHeading md:text-mdHeading sm:text-smHeading text-mobileHeading xl:leading-[16rem] lg:leading-[14rem] md:leading-[12rem] sm:leading-[10rem] leading-[9rem]">
           <h1 className="tracking-tighter">
-            {Array.from("FULL").map((letter, index) => (
+            {Array.from("SOFTWARE").map((letter, index) => (
               <span
                 key={index}
                 className="hover:text-secondaryTextColor inline-block"
@@ -41,13 +41,14 @@ function Hero() {
               </span>
             ))}
           </h1>
-          <h1 className="tracking-tighter hidden md:block">——</h1>
-          <h1 className="tracking-tighter">
-            {Array.from("STACK").map((letter, index) => (
+          {/* <h1 className="tracking-tighter hidden md:block">——</h1> */}
+          <h1 className="tracking-tighter mr-36">
+            {/* {Array.from("STACK").map((letter, index) => (
               <span key={index} className="hover:text-secondaryTextColor">
                 {letter}
               </span>
-            ))}
+            ))} */}
+            <img src="/profile.jpg" width="300px" className="rounded-full" />
           </h1>
         </div>
       </div>
