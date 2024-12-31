@@ -16,7 +16,7 @@ function Footer() {
             {date.getFullYear()} Nayan. All rights reserved.
           </p>
         </div>
-        <p className="text-center mx-auto text-secondaryTextColor font-semibold text-xl md:text-2xl cursor-pointer md:order-2 order-2">
+        <p className="text-center mx-auto text-secondaryTextColor font-semibold text-xl md:text-2xl md:order-2 order-2">
           kumarnayab6@gmail.com
         </p>
         <div className="flex lg:justify-end justify-center items-center gap-x-2 md:order-3 order-1">
