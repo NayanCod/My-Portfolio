@@ -11,7 +11,7 @@ function Achievement() {
       <div className="animate-on-scroll flex justify-center items-center md:px-14">
         <div className="flex lg:flex-row md:flex-col sm:flex-col flex-col items-start justify-evenly gap-4">
           <img
-            className="rounded-lg object-cover lg:h-[50vh] md:h-[60vh] sm:h-[55vh] h-[32vh] m-auto sm:m-auto md:m-4"
+            className="rounded-lg object-cover lg:h-[50vh] md:h-[60vh] sm:h-[30vh] m-auto sm:m-auto md:m-4 px-6 md:px-0"
             src="/achievement/mobility_hackathon.jpg"
             alt=""
           />
