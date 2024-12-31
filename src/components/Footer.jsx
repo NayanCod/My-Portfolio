@@ -9,7 +9,7 @@ function Footer() {
   const date = new Date();
   return (
     <footer className="p-5">
-      <div className="grid  lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 md:justify-between gap-y-3">
+      <div className="grid lg:grid-cols-3 md:grid-cols-1 sm:grid-cols-1 md:justify-between gap-y-3">
         <div className="flex items-end justify-center lg:justify-start md:order-1 order-3">
           <p className="text-secondaryTextColor font-semibold text-center lg:text-start ">
             <FontAwesomeIcon color="#777777" icon={faCopyright} />{" "}

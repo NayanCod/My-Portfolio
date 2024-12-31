@@ -42,13 +42,16 @@ function Hero() {
             ))}
           </h1>
           {/* <h1 className="tracking-tighter hidden md:block">——</h1> */}
-          <h1 className="tracking-tighter mr-36">
+          <h1 className="tracking-tighter mr-36 p-4">
             {/* {Array.from("STACK").map((letter, index) => (
               <span key={index} className="hover:text-secondaryTextColor">
                 {letter}
               </span>
             ))} */}
-            <img src="/profile.jpg" width="300px" className="rounded-full" />
+
+            <a href="https://www.linkedin.com/in/nayan-4b2b61249" target="_blank">
+            <img src="/profile.jpg" width="300px" className="rounded-full shadow-lg shadow-hoverBg p-0 hover:p-2 transition-all duration-500 cursor-pointer" />
+          </a>
           </h1>
         </div>
       </div>
@@ -68,7 +71,7 @@ function Hero() {
               dynamic, responsive and visually appealing websites. With
               expertise in <span className="text-hoverBg">JavaScript</span>,{" "}
               <span className="text-hoverBg">Vue</span> and{" "}
-              <span className="text-hoverBg">MERN stack</span>.
+              <span className="text-hoverBg">MERN stack</span>.<br></br>
                I focus on
               delivering seamless functionality and engaging user experiences.
             </p>

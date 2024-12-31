@@ -28,7 +28,7 @@ function Work() {
         />
         {/* Sudoyantra Dashboard */}
         <ProjectCard
-        img="sudo.png"
+        img="sudo.jpg"
         url="https://www.linkedin.com/in/nayan-4b2b61249/details/projects/"
         title="Sudoyantra Dashboard"
         skill1="Vue3"
