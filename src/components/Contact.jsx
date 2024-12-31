@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import Button from "./Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import { faPaperPlane, faSpinner } from "@fortawesome/free-solid-svg-icons";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -9,9 +9,10 @@ import {useScrollAnimations} from "../custom_hooks/useScrollAnimations"
 
 function Contact() {
   const form = useRef();
-  const [name, setName] = useState()
-  const [email, setEmail] = useState()
-  const [message, setMessage] = useState()
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [message, setMessage] = useState();
+  const [loading, setLoading] = useState(false);
 
   const clearFields=()=>{
     setName("");
@@ -47,6 +48,7 @@ function Contact() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    setLoading(true);
     emailjs
       .sendForm(
         import.meta.env.VITE_SERVICE_ID,
@@ -59,10 +61,12 @@ function Contact() {
           // console.log("successfully sent email", resut.text);
           success();
           clearFields();
+          setLoading(false);
         },
         (error) => {
           console.log("Failed", error);
           failed();
+          setLoading(false);
         }
       );
   };
@@ -109,8 +113,18 @@ function Contact() {
             className="px-20 py-1 m-auto text-xl flex justify-between gap-x-4"
             type="submit"
             value="Send"
+            disabled={loading}
           >
-            Send <FontAwesomeIcon color="#CB450C" icon={faPaperPlane} />
+            {loading ? (
+              <>
+                <FontAwesomeIcon icon={faSpinner} spin color="#CB450C" />
+                Sending...
+              </>
+            ) : (
+              <>
+                Send <FontAwesomeIcon color="#CB450C" icon={faPaperPlane} />
+              </>
+            )}
           </Button>
         </form>
       </div>
