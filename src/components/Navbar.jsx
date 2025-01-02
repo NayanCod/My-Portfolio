@@ -20,6 +20,15 @@ function Navbar() {
     })
   })
 
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = '/resume.pdf'; 
+    link.download = "Nayan_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <nav className="flex justify-between md:px-6 p-4 pt-12 h-[10vh] mb-5 items-center">
       <Button
@@ -27,9 +36,10 @@ function Navbar() {
       textColor="black"
       ><a href="/">NAYAN</a></Button>
       <div className="flex items-center justify-between gap-x-5">
+      
         <Button
         className="hover:bg-hoverBg hover:text-black hover:border-hoverBg hidden md:block "
-        ><a href="https://drive.google.com/file/d/1rALm-OsMTghSr0IUI58If5aj7l3ja7_A/view?usp=drive_link" target="_blank">Download CV</a></Button>
+        onClick={handleDownload} >Download CV</Button>
         <Button className="border-none" onClick={toggleNav}>
           {isNavOpen ? <FontAwesomeIcon icon={faXmark} size="xl" className="hover:text-[#CB450C]" /> : <FontAwesomeIcon size="xl" className="hover:text-[#CB450C]" icon={faBars} />}
         </Button>

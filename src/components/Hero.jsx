@@ -28,7 +28,7 @@ function Hero() {
   });
 
   return (
-    <div className="bg-primaryBg   p-4 md:p-10">
+    <div className="bg-primaryBg p-4 md:p-10">
       <div className="overflow-y-hidden pr-2">
         <div className="fe flex justify-between items-center flex-wrap font-bebas text-primaryTextColor xl:text-xlHeading lg:text-lgHeading md:text-mdHeading sm:text-smHeading text-mobileHeading xl:leading-[16rem] lg:leading-[14rem] md:leading-[12rem] sm:leading-[10rem] leading-[9rem]">
           <h1 className="tracking-tighter">
@@ -75,16 +75,6 @@ function Hero() {
                I focus on
               delivering seamless functionality and engaging user experiences.
             </p>
-            {/* <div className="mt-4">
-              <a
-                href="https://drive.google.com/file/d/1rALm-OsMTghSr0IUI58If5aj7l3ja7_A/view?usp=drive_link" target="_blank" rel="noreferrer"
-                className="inline-block bg-secondaryTextColor text-primaryBg px-4 py-2 rounded hover:bg-hoverBg transition duration-300"
-                download
-              >
-                Download Resume
-              </a>
-            </div> */}
-            {/* <div>Download Resume</div> */}
           </div>
           <div className=" xl:flex sm:hidden hidden justify-between items-center mt-6 lg:hidden md:hidden">
             <p className="text-primaryTextColor">Scroll down</p>
