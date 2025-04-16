@@ -4,7 +4,7 @@ const experience  = [
     {
         id:1,
         role: "Frontend Developer Intern",
-        duration: "Dec, 2024 — Present",
+        duration: "Dec, 2024 — Feb, 2025",
         location:"Remote",
         companyName: "Pinak Venture",
         webURL: "https://www.linkedin.com/company/pinakventure/posts/?feedView=all",
