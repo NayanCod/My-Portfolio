@@ -69,8 +69,8 @@ function Hero() {
               <span className="text-primaryTextColor mr-2">ABOUT</span>I am a
               developer specializing in creating
               dynamic, responsive and visually appealing websites. With
-              expertise in <span className="text-hoverBg">JavaScript</span>,{" "}
-              <span className="text-hoverBg">Vue</span> and{" "}
+              expertise in <span className="text-hoverBg">Next.js</span>,{" "}
+              <span className="text-hoverBg">React.js</span> and{" "}
               <span className="text-hoverBg">MERN stack</span>.<br></br>
                I focus on
               delivering seamless functionality and engaging user experiences.
