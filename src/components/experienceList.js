@@ -7,9 +7,9 @@ const experience  = [
         duration: "Dec, 2024 — Present",
         location:"Remote",
         companyName: "Pinak Venture",
-        webURL: "https://sudoyantra.com",
+        webURL: "https://www.linkedin.com/company/pinakventure/posts/?feedView=all",
         desc: "Working as a Frontend Developer, contributing to the development of a responsive, user-friendly website using TypeScript, Tailwind CSS, and HTML. Focused on ensuring cross-browser compatibility and writing scalable, maintainable front-end code.",
-        url: "/workedlogos/sudoyantralogo.png",
+        url: "/workedlogos/pinak.jpg",
         tech: ["ReactJS", "Redux-toolkit", "React Bootstrap"]
     },
     {

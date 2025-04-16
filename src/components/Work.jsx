@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectCard from "./ProjectCard";
 import {useScrollAnimations} from "../custom_hooks/useScrollAnimations"
 
@@ -16,6 +15,26 @@ function Work() {
       {/* projects grid */}
       {/* 1345X645 image aspect ratio */}
       <div className="animate-on-scroll grid sm:grid-cols-2 md:grid-cols-3 gap-[1px] bg-secondaryBg py-[1px]">
+        {/* Interviewly */}
+        <ProjectCard
+        img="interviewly.png"
+        url="https://interviewly-sand.vercel.app/"
+        title="Interviewly"
+        skill1="Next.js"
+        skill2="Gemini"
+        about="An AI-powered mock interview platform where an AI voice assistant generatea and conducts customized interviews based on user preferences. After the interview, it provides detailed feedback on performance, helping users improve their skills."
+        repo="https://github.com/NayanCod/Interviewly"
+        />
+        {/* watchspot */}
+        <ProjectCard
+        img="watchspot.jpg"
+        url="https://expo.dev/artifacts/eas/bPs7RrFL8TU2Kf7b98BMTz.apk"
+        title="Watchspot"
+        skill1="React Native"
+        skill2="Firebase"
+        about="A React Native Expo mobile app for movie recommendations, allowing users to search for movies, watch trailers and clips, and bookmark favorites. Powered by the Gemini API for personalized movie suggestions. The app features a user-friendly interface and secure authentication via Firebase, ensuring a seamless experience across devices."
+        repo="https://github.com/NayanCod/RN_Movie_App"
+        />
         {/* WanderLust */}
         <ProjectCard
         img="wanderlust.png"
@@ -67,7 +86,7 @@ function Work() {
         repo="https://github.com/NayanCod/netflix-gpt"
         />
         {/* weather app*/}
-        <ProjectCard
+        {/* <ProjectCard
         img="weather.jpg"
         url="https://nayancod.github.io/Weather-App/"
         title="Weather App"
@@ -75,7 +94,7 @@ function Work() {
         skill2="CSS"
         about="A weather app using HTML CSS and JS that uses Openweather API to fetch parameters like temperature, minimum and maximum temperature, state name and country name etc.Skills: JavaScript · HTML · Cascading Style Sheets (CSS)"
         repo="https://github.com/NayanCod/Weather-App"
-        />
+        /> */}
         {/* walkability app*/}
         <ProjectCard
         img="walkability.jpg"
@@ -87,7 +106,7 @@ function Work() {
         repo="https://github.com/NayanCod/Walkability-App"
         />
         {/* quiz app */}
-        <ProjectCard
+        {/* <ProjectCard
         img="quizApp.jpg"
         url="https://nayan-quiz-app.netlify.app"
         title="Trivia App"
@@ -95,7 +114,7 @@ function Work() {
         skill2="Docker"
         about="A Trivia App built with Next.js, featuring dynamic interfaces and efficient data fetching. Dockerized for seamless deployment, it highlights key skills in Next.js and containerization."
         repo="https://github.com/NayanCod/Quiz-App"
-        />
+        /> */}
         {/* coming soon card */}
         <div className="relative hidden bg-primaryBg border border-dashed border-borderColor  md:flex flex-col justify-center items-center gap-y-4">
           <img className="invert h-16 " src="./coming_soon.png" alt="" />

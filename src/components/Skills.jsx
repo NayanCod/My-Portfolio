@@ -1,4 +1,3 @@
-import React from "react";
 import skills from "./skillCollection";
 import Marquee from "react-fast-marquee";
 import {useScrollAnimations} from "../custom_hooks/useScrollAnimations"

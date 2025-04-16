@@ -16,76 +16,81 @@ const skills = [
     },
     {
         id: 4,
+        name: "Next.js",
+        url: "./skillImages/next.png"
+    },
+    {
+        id: 5,
         name: "Vue",
         url: "./skillImages/vue.png"
     },
     {
-        id: 5,
+        id: 6,
         name: "Tailwind",
         url: "./skillImages/tailwind.svg"
     },
     {
-        id: 6,
+        id: 7,
         name: "Redux",
         url: "./skillImages/rtk.png"
     },
     {
-        id: 7,
+        id: 8,
         name: "Firebase",
         url: "./skillImages/firebase.png"
     },
     {
-        id: 8,
+        id: 9,
         name: "Bootstrap",
         url: "./skillImages/bootstrap.png"
     },
     {
-        id: 9,
+        id: 10,
         name: "Node.js",
         url: "./skillImages/node.png"
     },
     {
-        id: 10,
+        id: 11,
         name: "Express.js",
         url: "./skillImages/express.png"
     },
     {
-        id: 11,
+        id: 12,
         name: "MongoDB",
         url: "./skillImages/mongodb.png"
     },
     {
-        id: 12,
+        id: 13,
         name: "PostgreSQL",
         url: "./skillImages/postgresql.png"
     },
     {
-        id: 13,
+        id: 14,
         name: "Prisma",
         url: "./skillImages/prisma.png"
     },
     {
-        id: 14,
+        id: 15,
         name: "Fastify",
         url: "./skillImages/fastify.png"
     },
     {
-        id: 15,
+        id: 16,
         name: "Git",
         url: "./skillImages/git.png"
     },
     {
-        id: 16,
+        id: 17,
         name: "Github",
         url: "./skillImages/github.png"
     },
     {
-        id: 17,
+        id: 18,
         name: "Python",
         url: "./skillImages/python.png"
     },
     {
-        id: 18,
+        id: 19,
         name: "C++",
         url: "./skillImages/cpp.png"
     },
